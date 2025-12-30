@@ -1,8 +1,6 @@
 ---
 
-# AI Agent Chatbot
-
-**LangChain · Groq · OpenAI · Tavily**
+# AI Agent Chatbot (LangChain · Groq · OpenAI · Tavily)
 
 An end-to-end **AI Agent Chatbot** featuring a FastAPI backend and Streamlit frontend.
 It supports multiple LLM providers, optional web search, and a clean, modular agent architecture.
