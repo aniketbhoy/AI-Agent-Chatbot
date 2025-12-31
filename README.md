@@ -1,3 +1,5 @@
+![Docker Pulls](https://img.shields.io/docker/pulls/aniketbhoy74/ai-agent-chatbot)
+![Docker Image Size](https://img.shields.io/docker/image-size/aniketbhoy74/ai-agent-chatbot)
 ---
 
 # AI Agent Chatbot (LangChain · Groq · OpenAI · Tavily)
