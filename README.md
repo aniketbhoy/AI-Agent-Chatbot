@@ -44,7 +44,7 @@ AI Agent Chatbot/
 
 ## Environment Setup
 
-### 1️⃣ Create a Virtual Environment
+### Create a Virtual Environment
 
 ```bash
 python -m venv myenv
@@ -52,7 +52,7 @@ source myenv/bin/activate   # macOS / Linux
 # myenv\Scripts\activate    # Windows
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -70,14 +70,14 @@ OPENAI_API_KEY=sk_xxxxxxxxxxxxx
 TAVILY_API_KEY=tvly_xxxxxxxxxxx
 ```
 
-> ⚠️ **Note:** OpenAI requires an active billing quota.
+> **Note:** OpenAI requires an active billing quota.
 > If your OpenAI quota is exhausted, use **Groq** instead.
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
-### 1️⃣ Start the Backend (FastAPI)
+### Start the Backend (FastAPI)
 
 ```bash
 uvicorn backend:app --host 127.0.0.1 --port 9999
@@ -91,7 +91,7 @@ Uvicorn running on http://127.0.0.1:9999
 
 ---
 
-### 2️⃣ Start the Frontend (Streamlit)
+### Start the Frontend (Streamlit)
 
 ```bash
 streamlit run frontend.py
@@ -101,7 +101,7 @@ Your browser will open automatically.
 
 ---
 
-## 🧪 Example API Request
+## Example API Request
 
 ```http
 POST /chat
@@ -119,32 +119,23 @@ POST /chat
 
 ---
 
-## 🤖 Supported Models
+## Supported Models
 
 ### Groq
 
-* ✅ `llama-3.3-70b-versatile`
+* `llama-3.3-70b-versatile`
 
 ### OpenAI
 
-* ✅ `gpt-4o-mini`
+* gpt-4o-mini`
 
 ### Blocked / Deprecated
 
-* ❌ `mixtral-8x7b-32768`
+* `mixtral-8x7b-32768`
 
 ---
 
-## 🛡️ Error Handling
-
-* Provider ↔ model mismatch prevention
-* Graceful handling of OpenAI quota exhaustion
-* Deprecated models automatically blocked
-* Clear UI and API error messages
-
----
-
-## 🧠 How It Works (High-Level)
+## How It Works (High-Level)
 
 ```text
 Streamlit UI
@@ -158,7 +149,7 @@ Groq / OpenAI (+ Tavily Web Search)
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 * Python 3.12
 * FastAPI
@@ -171,7 +162,7 @@ Groq / OpenAI (+ Tavily Web Search)
 
 ---
 
-## ✅ Project Status
+## Project Status
 
 * ✔ Backend stable
 * ✔ Frontend fully functional
@@ -180,7 +171,7 @@ Groq / OpenAI (+ Tavily Web Search)
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Chat history & memory
 * Streaming responses
@@ -190,7 +181,7 @@ Groq / OpenAI (+ Tavily Web Search)
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
