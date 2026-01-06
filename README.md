@@ -36,7 +36,7 @@ AI Agent Chatbot/
 ├── backend.py          # FastAPI server
 ├── ai_agent.py         # LangChain agent logic
 ├── frontend.py         # Streamlit UI
-├── .env                # API keys (not committed)
+├── .env                # API keys
 ├── requirements.txt
 └── README.md
 ```
