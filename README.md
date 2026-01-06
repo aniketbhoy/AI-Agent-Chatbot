@@ -1,4 +1,4 @@
-![Build Status](https://github.com/aniketbhoy/AI-Agent-Chatbot/actions/workflows/docker-publish.yml/badge.svg)
+[![Build and Push Docker Image](https://github.com/aniketbhoy/AI-Agent-Chatbot/actions/workflows/docker-image.yml/badge.svg)](https://github.com/aniketbhoy/AI-Agent-Chatbot/actions/workflows/docker-image.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/aniketbhoy74/ai-agent-chatbot)
 ![Docker Image Size](https://img.shields.io/docker/image-size/aniketbhoy74/ai-agent-chatbot)
 ---
